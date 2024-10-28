@@ -8,6 +8,7 @@ Este é o site oficial da imobiliária Eixo Urbano, desenvolvido para oferecer u
 - Funcionalidades
 - Layout
 - Tecnologias Utilizadas
+- Ferramentas Utilizadas
 - Como Usar
 - Autor
 
@@ -27,6 +28,11 @@ O projeto consiste em um site estático e responsivo criado com HTML e CSS. Ele 
 - **HTML5**: Utilizado para estruturar o conteúdo do site.
 - **CSS3**: Utilizado para estilizar o conteúdo e criar um layout responsivo.
 - **Flexbox/Grid**: Utilizado para criar um layout flexível e adaptável.
+
+## Ferramentas Utilizadas
+- **Bootstrap**: Framework CSS utilizado para facilitar a criação de layouts responsivos e componentes estilizados.
+- **Pexels**: Plataforma de imagens gratuitas utilizada para obter imagens de alta qualidade para o site.
+- **Sites de Imobiliárias**: Utilizados como inspiração para o design e funcionalidades do site.
 
 ## Como Usar
 1. Clone o repositório:
