@@ -21,7 +21,6 @@ O projeto consiste em um site estático e responsivo criado com HTML e CSS. Ele 
 - **Estrutura Completa**: Páginas de home, sobre, login, Cadastro e listagem de imóveis.
 
 ## Layout
-!Layout Principal
 A página inicial do site da Eixo Urbano é projetada para ser atraente e funcional, proporcionando uma experiência de usuário intuitiva. Aqui está uma descrição detalhada dos principais componentes do layout:
 
 Cabeçalho (Header):
