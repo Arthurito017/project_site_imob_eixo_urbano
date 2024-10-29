@@ -535,92 +535,40 @@ section {
     text-align: center;
 }
 
-/* Seção de Login */
-.login-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-image: url(./img/banner5.jpeg);
-    background-size: cover;
-    background-position: center;
-}
-
-/* Card de Login */
-.login-card {
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 100%;
-    max-width: 400px;
-}
-
-/* Cabeçalho do Card */
-.login-card .card-header {
-    background-color: #d4af37; /* Cor primária da Eixo Urbano */
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    border-radius: 10px 10px 0 0;
-}
-
-/* Formulário */
-.login-card .form-label {
-    font-weight: bold;
-    color: #333;
-}
-
-.login-card .form-control {
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    padding: 10px;
-}
-
-.login-card .btn-success {
-    background-color: #d4af37;; /* Cor secundária da Eixo Urbano */
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 16px;
-}
-
-.login-card .btn-success:hover {
-    background-color: #333; /* Cor secundária escura da Eixo Urbano */
-}
-
-.login-card .text-decoration-none {
-    color: #333; /* Cor primária da Eixo Urbano */
-}
-
-.login-card .text-decoration-none:hover {
-    text-decoration: underline;
-}
-
-/* Seção de Cadastro */
+/* Seção de Login e Cadastro */
+.login-section,
 .cadastro-section {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    /* Alinha os itens ao início */
     height: 100vh;
-    background-image: url(./img/banner5.jpeg);
+    background-image: url(./img/banner5.jpg);
     background-size: cover;
     background-position: center;
+    padding-top: 50px;
+    /* Adiciona espaço no topo */
 }
 
-/* Card de Cadastro */
+/* Card de Login e Cadastro */
+.login-card,
 .cadastro-card {
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     width: 100%;
-    max-width: 400px;
+    max-width: 350px;
+    /* Diminuído para 350px */
+    margin-top: 50px;
+    /* Adiciona margem superior para posicionar abaixo do centro */
 }
 
 /* Cabeçalho do Card */
+.login-card .card-header,
 .cadastro-card .card-header {
-    background-color: #d4af37; /* Cor primária da Eixo Urbano */
+    background-color: #d4af37;
+    /* Cor primária da Eixo Urbano */
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -628,35 +576,42 @@ section {
 }
 
 /* Formulário */
+.login-card .form-label,
 .cadastro-card .form-label {
     font-weight: bold;
     color: #333;
 }
 
+.login-card .form-control,
 .cadastro-card .form-control {
     border-radius: 5px;
     border: 1px solid #ccc;
     padding: 10px;
 }
 
+.login-card .btn-success,
 .cadastro-card .btn-success {
-    background-color: #d4af37; /* Cor secundária da Eixo Urbano */
+    background-color: #d4af37;
+    /* Cor secundária da Eixo Urbano */
     border: none;
     border-radius: 5px;
     padding: 10px;
     font-size: 16px;
 }
 
+.login-card .btn-success:hover,
 .cadastro-card .btn-success:hover {
-    background-color: #333; /* Cor secundária escura da Eixo Urbano */
+    background-color: #333;
+    /* Cor secundária escura da Eixo Urbano */
 }
 
+.login-card .text-decoration-none,
 .cadastro-card .text-decoration-none {
-    color: #333; /* Cor primária da Eixo Urbano */
+    color: #333;
+    /* Cor primária da Eixo Urbano */
 }
 
+.login-card .text-decoration-none:hover,
 .cadastro-card .text-decoration-none:hover {
     text-decoration: underline;
 }
-
-

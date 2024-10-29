@@ -18,34 +18,11 @@ O projeto consiste em um site estático e responsivo criado com HTML e CSS. Ele 
 ## Funcionalidades
 - **Responsividade**: Layout adaptável para diferentes tamanhos de tela (desktop, tablet e mobile).
 - **Design Moderno**: Utilização de cores neutras e fontes padrão para garantir boa leitura e estética agradável.
-- **Estrutura Completa**: Páginas de home, sobre, contato e listagem de imóveis.
+- **Estrutura Completa**: Páginas de home, sobre, login, Cadastro e listagem de imóveis.
 
 ## Layout
-Layout
-A página inicial do site da Eixo Urbano é projetada para ser atraente e funcional, proporcionando uma experiência de usuário intuitiva. Aqui está uma descrição detalhada dos principais componentes do layout:
-
-Cabeçalho (Header):
-Barra de Navegação (Navbar):
-A barra de navegação é fixa no topo da página e se expande para dispositivos móveis.
-Inclui o logotipo da Eixo Urbano à esquerda, que é clicável e redireciona para a página inicial.
-Um botão de alternância (hambúrguer) aparece em dispositivos móveis para expandir ou colapsar o menu de navegação.
-Links de navegação para páginas como “Sobre”, “Imóveis” (com submenu para “Aluguel” e “Venda”), “Área do Locador” e “Área do Locatário”.
-Ícones de redes sociais (Instagram, Facebook, YouTube, WhatsApp) à direita, que abrem em novas abas.
-Banner Principal (Main Banner):
-Imagem de Fundo: O banner principal ocupa a largura total da tela e possui uma imagem de fundo atraente.
-Texto de Boas-Vindas: Inclui um título “Bem-vindo Ao Eixo Urbano” e um subtítulo “Seu sonho de casa nova começa aqui!” para acolher os visitantes.
-Formulário de Pesquisa:
-Um formulário de pesquisa centralizado no banner permite que os usuários filtrem imóveis por tipo (Casa, Apartamento, Flat, Terreno, Salas Comerciais) e localização (Brasília, Rio de Janeiro, São Paulo, Balneário Camboriú, Recife).
-Um botão de submissão “Pesquisar” para iniciar a busca.
-
-Este layout é projetado para ser responsivo, garantindo que todos os elementos se ajustem adequadamente em diferentes tamanhos de tela, desde desktops até dispositivos móveis. A combinação de uma navegação clara, um banner visualmente atraente e um formulário de pesquisa funcional proporciona uma experiência de usuário eficiente e agradável.
-
-1. Endereço do Layout:
-    ```bash
-    git clone https://github.com/seu-usuario/eixo-urbano.git
-    ```
-
-
+!Layout Principal
+*Exemplo do layout principal da página.*
 
 ## Tecnologias Utilizadas
 - **HTML5**: Utilizado para estruturar o conteúdo do site.
@@ -56,7 +33,6 @@ Este layout é projetado para ser responsivo, garantindo que todos os elementos 
 - **Bootstrap**: Framework CSS utilizado para facilitar a criação de layouts responsivos e componentes estilizados.
 - **Pexels**: Plataforma de imagens gratuitas utilizada para obter imagens de alta qualidade para o site.
 - **Sites de Imobiliárias**: Utilizados como inspiração para o design e funcionalidades do site.
-- **Microsoft Copilot**: LLM Utilizada para auxiliar nas melhorias de bugs e ideias para o site.
 
 ## Como Usar
 1. Clone o repositório:
